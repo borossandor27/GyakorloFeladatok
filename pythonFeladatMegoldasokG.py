@@ -31,6 +31,34 @@ def f003():
     print()
 
 
+def f004():
+    # Bekér egy szöveget és kiírja ’e’ betűk nélkül.
+    szoveg = input("Kérek egy szöveget: ")
+    enelkul = ""
+    for letter in szoveg.lower():
+        if letter != "e":
+            enelkul += letter
+    print(enelkul)
+
+def f005():
+    # Bekér egy szöveget és kiírja, hogy van-e benne névelő (’a’ vagy ’az’) 
+    szoveg = input("Kérek egy szöveget: ")
+    if szoveg.lower().rfind(' a ') >= 0 or szoveg.lower().rfind(' az ')>=0 or szoveg.lower().startswith('a ') or szoveg.lower().startswith('az '):
+        print(f"\n'{szoveg}' szöveg tartalmaz névelőt.\n")
+    else:
+        print(f"\n'{szoveg}' szöveg NEM tartalmaz névelőt.\n")
+def f006():
+    # Bekér egy szöveget és csak a benne lévő magánhangzókat írja ki. (aáeéiíoóöőuúüű)  
+    szoveg = input("Kérek egy szöveget: ")
+    maganhangzokNelkul=''
+    for letter in szoveg.lower():
+        if "aáeéiíoóöőuúüű".rfind(letter) < 0: 
+            maganhangzokNelkul += letter
+    print(f"\n'{szoveg}' szöveg magánhangzók nélkül '{maganhangzokNelkul}'\n")
+
 # f001()
 # f002()
-f003()
+# f003()
+#f004()
+#f005()
+f006()
