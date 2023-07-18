@@ -69,6 +69,41 @@ def f005():
             print(f"\n{szam} NEM Armstrong szám.\n")
 
 
+def f006():
+    # Írjunk programot, ami bekér a felhasználótól egy egész számot,
+    # majd az alábbi mondatok közül kiírja azokat a képernyőre, amelyek igazak
+    szam = int(input("Kérek egy egész számot: "))
+    if szam == 4:
+        print("A megadott szám a 4-es. ")
+    if szam < 10:
+        print("A megadott kisebb mint 10. ")
+    if szam % 2 == 0:
+        print("A megadott szám páros. ")
+    if szam > 0 and szam < 10:
+        print("A megadott a [0,10] intervallumba esik. ")
+    if szam % 3 == 0 and szam % 5 == 0:
+        print("A megadott szám osztható 3-mal és 5-tel is. ")
+    if szam <= 10 or szam >= 20:
+        print("A megadott szám nem a [10,20] intervallumba esik. ")
+
+
+def f007():
+    # Írjunk programot, ami bekér a felhasználótól két egész számot,
+    # majd az alábbi mondatok közül kiírja azokat a képernyőre, amelyek igazak
+    szam1 = int(input("Kérek egy egész számot: "))
+    szam2 = int(input("Kérek egy másik egész számot: "))
+    if szam1 == szam2:
+        print("A két szám egyenlő. ")
+    if szam1 % 2 == 1 and szam2 % 2 == 1:
+        print("Mind a két szám páratlan. ")
+    if szam1 % 3 == 0 or szam2 % 3 == 0:
+        print("Legalább az egyik szám osztható hárommal. ")
+    if szam1 < 0 and szam2 < 0:
+        print("Mind a két szám negatív. ")
+    if (szam1 < 0 and szam2 > 0) or (szam1 > 0 and szam2 < 0):
+        print("Az egyik szám negatív, a másik szám pozitív. ")
+
+
 def f032():
     # Húsvét vasárnap számítása
     T = int(input("\nKérem az évszámot: "))
@@ -98,4 +133,6 @@ def f032():
 # f003()
 # f004()
 # f005()
-f032()
+# f006()
+f007()
+# f032()

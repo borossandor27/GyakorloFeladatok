@@ -110,6 +110,51 @@ def f08():
     )
 
 
+def f09():
+    # mm-ben megadott értéket bontsunk méterre, deciméterre, centiméterre, milliméterre
+
+    millimeter = int(input("Adja meg az átváltandó távolságot milliméterben: "))
+    km = millimeter // (1000 * 1000)
+    meter = (millimeter - km * 1000 * 1000) // 1000
+    decimeters = (millimeter - km * 1000 * 1000 - meter * 1000) // 100
+    centimeters = (
+        millimeter - km * 1000 * 1000 - meter * 1000 - decimeters * 100
+    ) // 10
+    mm = (
+        millimeter
+        - km * 1000 * 1000
+        - meter * 1000
+        - decimeters * 100
+        - centimeters * 10
+    )
+    print(
+        f"\nA {millimeter} mm = {km} km, {meter} m, {decimeters} dm, {centimeters} cm és {mm:.0f} mm"
+        + "\n"
+    )
+
+
+def f10():
+    # bekéri egy kör sugarát és kiírja a kerületét és a területét 4 tizedes pontossággal.
+    sugar = float(input("Kérem adja meg a kör sugarát: "))
+    kerulet = 2 * sugar * math.pi
+    terulet = sugar * sugar * math.pi
+    print(f"\n{sugar} sugarú kör kerülete: {kerulet:.4f}, területe: {terulet:.4f}")
+
+
+def f11():
+    # Celsiusban megadott értéket (°𝐶) átvált Fahrenheitre 2 tizedes pontossággal
+    celsius = int(input("Adja meg a hőmérsékletet °C-ban: "))
+    fahreinheit = celsius * 9 / 5 + 32
+    print(f"\n{celsius} °C = {fahreinheit} °F")
+
+
+def f18():
+    # Bekér egy pénzösszeget és a legkisebb fizetőeszköznek (5 Ft) megfelelőre kerekíti.
+    osszeg = int(input("Kérem az összeget: "))
+    fizetendo = int(osszeg /5+.5) * 5
+    print(f"\n{osszeg} Ft összeg alapján fizetendő {fizetendo} Ft")
+
+
 def main():
     # f01()
     # f02()
@@ -118,7 +163,11 @@ def main():
     # f05()
     # f06()
     # f07()
-    f08()
+    # f08()
+    # f09()
+    # f10()
+    # f11()
+    f18()
 
 
 main()
