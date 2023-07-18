@@ -1,0 +1,3 @@
+'''
+Összetett feladatok
+'''
