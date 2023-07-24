@@ -88,7 +88,7 @@ def f07():
     for uzenet in uzenetek:
         if uzenet.nap == nap and radios == uzenet.radioAmator:
             adas = uzenet.uzenet
-    if adas==None:
+    if adas == None:
         print("Nincs ilyen feljegyzés")
     elif adas[0].isdigit():
         megfigyeles = adas.split(" ")[0]

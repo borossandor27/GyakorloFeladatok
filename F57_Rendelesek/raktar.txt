@@ -1,0 +1,8 @@
+p001;Poló L-es;1899;10
+p002;Polo S-es;1899;2
+p003;Polo XL-es;2199;5
+p004;Poló M-es;1899;6
+s001;Baseball sapka;3990;7
+n001;Nyakkendő;2490;5
+g001;Nadrág;3000;4
+g002;Nadrág kék;3200;8
