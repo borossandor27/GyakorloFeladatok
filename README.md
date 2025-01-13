@@ -1,13 +1,13 @@
-# Az INFORMATIKA ÉS TÁVKÖZLÉS ágazathoz tartozó 
-- 5 0613 12 03 SZOFTVERFEJLESZTŐ ÉS –TESZTELŐ SZAKMA
-- 5 0612 12 02INFORMATIKAI RENDSZER- ÉS ALKALMAZÁSÜZEMELTETŐ TECHNIKUS SZAKMA
+# Gyakorló feladatok 
 
-ágazati alapvizsga python vizsgájára felkészítő egyszerű feladatok,
-de bármelyik programozási nyelv megismeréséhez használhatóak
+A ```Programozas_feladatok.pdf```-ben olyan egyszerű feladatok vannak, amelyek
+bármelyik programozási nyelv megismeréséhez használhatóak.
 
 A python megoldások: https://github.com/borossandor27/pythonGyakorloFeladatok.git
 
 A megoldások nem a nyelv szépségét kívánják bemutatni, nem használják ki az összes nyelvi lehetőséget, hanem a sikeres vizsgához szükséges ismereteket próbálják bemutatni
+
+A további feladatok a már megismert nyelv rutin szerű gyakorlására alkalmasak. Régebbi OKJ-s és érettségi feladatok programozási feladatai.
 
 ## ***f00*** Kéktúra 
 Az Országos Kéktúra Magyarország északi részén végighaladó folyamatos, jelzett
@@ -214,4 +214,5 @@ Program vége.
 ```
 ## ***f14*** Robotvezérlés 
 Ebben a feladatban tanulók által írt robotvezérlő kódsorozatokat kell elemeznie. Az elemzésre azért van szükségünk, hogy a tényleges kipróbálás előtt kiszűrjük a hibákat tartalmazó munkákat.
+
 
