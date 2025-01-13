@@ -53,13 +53,13 @@ adattípusokat és függvényeket kell alkalmaznia.
 
 ```
 Eljárás ShellRendezes(a:Tömb[0..N] Egész)
->Változó gap, n, i, j, x, y : Egész
->gap := 1
->n := a.Hossz //a vektor elemszáma
->Ciklus amíg (gap * 2 <= n)
->gap := gap * 2
->Ciklus vége
->gap := gap - 1
+> Változó gap, n, i, j, x, y : Egész
+> gap := 1
+> n := a.Hossz //a vektor elemszáma
+> Ciklus amíg (gap * 2 <= n)
+> gap := gap * 2
+> Ciklus vége
+> gap := gap - 1
 >Ciklus
 >i := 0
 >Ciklus amíg ((i <= gap) ÉS (i + gap < n))
