@@ -1,11 +1,7 @@
 # Gyakorló feladatok 
 
 A ```Programozas_feladatok.pdf```-ben olyan egyszerű feladatok vannak, amelyek
-bármelyik programozási nyelv megismeréséhez használhatóak.
-
-A python megoldások: https://github.com/borossandor27/pythonGyakorloFeladatok.git
-
-A megoldások nem a nyelv szépségét kívánják bemutatni, nem használják ki az összes nyelvi lehetőséget, hanem a sikeres vizsgához szükséges ismereteket próbálják bemutatni
+bármelyik programozási nyelv megismeréséhez használhatóak. ***Adatbekérés, értékadások, ...***
 
 A további feladatok a már megismert nyelv rutin szerű gyakorlására alkalmasak. Régebbi OKJ-s és érettségi feladatok programozási feladatai.
 
