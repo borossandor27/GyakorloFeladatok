@@ -1,0 +1,11 @@
+# Az INFORMATIKA ÉS TÁVKÖZLÉS ágazathoz tartozó 
+- 5 0613 12 03 SZOFTVERFEJLESZTŐ ÉS –TESZTELŐ SZAKMA
+- 5 0612 12 02INFORMATIKAI RENDSZER- ÉS ALKALMAZÁSÜZEMELTETŐ TECHNIKUS SZAKMA
+
+Ágazati alapvizsga python vizsgájára felkészítő egyszerű feladatok,
+de bármelyik programozási nyelv megismeréséhez használhatóak
+
+A python megoldások: https://github.com/borossandor27/pythonGyakorloFeladatok.git
+
+A megoldások nem a nyelv szépségét kívánják bemutatni, nem használják ki az összes nyelvi lehetőséget, hanem a sikeres vizsgához szükséges ismereteket próbálják bemutatni
+
