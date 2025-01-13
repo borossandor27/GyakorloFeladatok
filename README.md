@@ -82,19 +82,83 @@ Eljárás ShellRendezes(a:Tömb[0..N] Egész)
 Eljárás vége
 
 Program shellsort
-Változó t: Tömb[0..9] Egész
-t[0] := 63
-t[1] := 54
-t[2] := 33
-t[3] := 45
-t[4] := 23
-t[5] := 99
-t[6] := 43
-t[7] := 10
-t[8] := 35
-t[9] := 87
-ShellRendezes(t)
-Ciklus i:=0 -tól 9 –ig (+1 lépésközzel)
-Ki: t[i]
-Ciklus vége
+    Változó t: Tömb[0..9] Egész
+    t[0] := 63
+    t[1] := 54
+    t[2] := 33
+    t[3] := 45
+    t[4] := 23
+    t[5] := 99
+    t[6] := 43
+    t[7] := 10
+    t[8] := 35
+    t[9] := 87
+    ShellRendezes(t)
+    Ciklus i:=0 -tól 9 –ig (+1 lépésközzel)
+        Ki: t[i]
+    Ciklus vége
 Program vége
+```
+
+## ***f08*** Bástyák
+Ebben a feladatban egy 8x8-as mátrixban mint sakktáblán a számítógép által
+véletlenszerűen elhelyezett bástyákkal és gyalogokkal fog dolgozni.
+
+## ***f09*** Reversi 
+A reversi játékot általában 8×8 mezőből álló négyzetrácsos táblán játsszák. Ebben a
+feladatban a tábla sorait és oszlopait is 0-tól 7-ig azonosítjuk az ábra szerint. A játékot legjobb olyan korongokkal játszani, amelyek két oldala különböző színű (feladatunkban kék és fehér). A két játékos felváltva rakja le korongjait. ...
+
+## ***f10*** Lézerlövészet 
+Egy baráti társaságban népszerű szórakozás a lézerlövészet, ahol a játékosok elektronikus fegyverrel lőnek virtuális céltáblára. Mivel csak egy fegyverük van, így minden lövés előtt kockadobással határozzák meg a soron következő játékost. A kockadobásban mindenki részt vesz, így egymás után akár több lövést is leadhat egy-egy játékos.
+
+## ***f11*** kő-papír-olló
+Írjon programot a kő-papír-olló játékkal kapcsolatos feladatok megoldására! A program olvassa be két játékos választását kódok segítségével a minta szerint, majd tárolja azokat! 
+
+## ***f12*** koktélrendezés
+Kódolja az alábbi algoritmust a választott programozási nyelven!
+Az algoritmus egy bájt típusú, 10 elemű vektort rendez növekvő sorrendben a koktélrendezés módszerével.
+```plaintext
+Eljárás KiirTomb(t:Egész elemű tömb)
+    Ciklus i=0-tól t.Hossz-1-ig (+1 lépésközzel)
+        Ki: t[i],”, ”
+    Ciklus vége
+    Ki: Soremelés [CR és LF vezérlőkarakterek]
+Eljárás vége
+
+Program:
+    Változó tömb t[0..9]:Egész = {54,68,14,70,93,91,39,37,7,13}
+    Változó kezd:Egész = 0
+    Változó veg:Egész = t.Hossz - 1
+    Változó csereVolt:Logikai
+    Változó csere:Egész
+    KiirTomb(t)
+    Ciklus
+        csereVolt = Hamis
+        Ciklus i=kezd-tól veg-1 -ig (+1 lépésközzel)
+            Ha t[i] > t[i + 1]
+            akkor
+            csere = t[i]
+            t[i] = t[i + 1]
+            t[i + 1] = csere
+            csereVolt = Igaz
+            Elágazás vége
+        Ciklus vége
+        veg = veg – 1
+        Ha csereVolt=Igaz
+        akkor
+            csereVolt = Hamis
+            Ciklus i=veg-től kezd+1 -ig (-1 lépésközzel)
+                Ha t[i] < t[i - 1]
+                akkor
+                    csere = t[i]
+                    t[i] = t[i - 1]
+                    t[i - 1] = csere
+                    csereVolt = Igaz
+                Elágazás vége
+            Ciklus vége
+            kezd = kezd + 1
+        Elágazás vége
+    amíg csereVolt = Igaz
+    KiirTomb(t)
+Program vége.
+```
