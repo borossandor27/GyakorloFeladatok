@@ -51,45 +51,43 @@ adattípusokat és függvényeket kell alkalmaznia.
 - A ”div” az egészosztás operátora.
 - Az egész típusú változókhoz és vektorokhoz használjon 32 bites előjeles adattípust!
 
-```
+```plaintext
 Eljárás ShellRendezes(a:Tömb[0..N] Egész)
-> Változó gap, n, i, j, x, y : Egész
-> gap := 1
-> n := a.Hossz //a vektor elemszáma
-> Ciklus amíg (gap * 2 <= n)
-> gap := gap * 2
-> Ciklus vége
-> gap := gap - 1
->Ciklus
->i := 0
->Ciklus amíg ((i <= gap) ÉS (i + gap < n))
->j := i + gap
->Ciklus amíg (j < n)
->x := a[j]
->y := j – gap
->Ciklus amíg ((x > -1) ÉS (x < a[y]))
->a[y + gap] := a[y]
->y := y – gap
->Ciklus vége
->a[y + gap] := x
->j := j + gap
->Ciklus vége
->i := i + 1
->Ciklus vége
->gap := gap div 2
->amíg (gap > 0)
->Ciklus vége
+    Változó gap, n, i, j, x, y : Egész
+    gap := 1
+    n := a.Hossz //a vektor elemszáma
+    Ciklus amíg (gap * 2 <= n)
+        gap := gap * 2
+    Ciklus vége
+    gap := gap - 1
+    Ciklus
+        i := 0
+        Ciklus amíg ((i <= gap) ÉS (i + gap < n))
+            j := i + gap
+            Ciklus amíg (j < n)
+                x := a[j]
+                y := j – gap
+                Ciklus amíg ((x > -1) ÉS (x < a[y]))
+                    a[y + gap] := a[y]
+                    y := y – gap
+                Ciklus vége
+                a[y + gap] := x
+                j := j + gap
+            Ciklus vége
+            i := i + 1
+        Ciklus vége
+        gap := gap div 2
+    amíg (gap > 0)
+    Ciklus vége
 Eljárás vége
+
 Program shellsort
 Változó t: Tömb[0..9] Egész
 t[0] := 63
 t[1] := 54
 t[2] := 33
 t[3] := 45
-t[4] := 23írásbeli vizsga, II. összetevő 8 / 20 2016. október 17.
-1621
-Informatikai alapismeretek — emelt szint Azonosító
-jel:
+t[4] := 23
 t[5] := 99
 t[6] := 43
 t[7] := 10
