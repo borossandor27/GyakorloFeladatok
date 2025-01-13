@@ -162,3 +162,56 @@ Program:
     KiirTomb(t)
 Program vége.
 ```
+## ***f13*** Négyzetgyökök keresése 13 pont
+A következő algoritmus számok négyzetgyökét határozza meg. Kódolja az algoritmust a
+választott programozási nyelven! A ”/*” és ”*/” karakterpárok között megjegyzéseket talál, ezeket helyezze el a megoldásban is! Az elkészült program forráskódját mentse ```Ngyok``` néven!
+A megoldás során vegye figyelembe a következőket:
+- A választott programozási nyelvtől függően eltérő jelölésű operátorokat és függvényeket
+kell alkalmaznia!
+- A ”Térj vissza” utasítás megszakítja a függvény futását és meghatározza annak
+visszatérési értékét!
+- A valós típusú változókhoz használja a legnagyobb pontosságot biztosító adattípust!
+- A függvény negatív értékű aktuális paraméter esetén hibakóddal (-1) tér vissza!
+
+```plaintext
+Függvény Negyzetgyok(x:Valós): Valós
+    Változó pontossag, also, felso, proba: Valós
+    /* A legnagyobb pontosságú valós típust használja! */
+    Ha x>0 akkor
+        pontossag := 0.00000000000001
+        Ha x<1 akkor
+            also := x
+            felso := 1
+        különben
+            also := 1
+            felso := x
+        Elágazás vége
+        Ciklus amíg (felso – also) > pontossag
+            proba := (also + felso) / 2
+            Ha proba * proba > x akkor
+                felso := proba
+            különben
+                also := proba
+            Elágazás vége
+        Ciklus vége
+        Térj vissza (also + felso) / 2
+    különben
+        Ha x=0 akkor
+            Térj vissza 0
+        különben
+            Térj vissza -1
+        Elágazás vége
+    Elágazás vége
+Függvény vége
+
+Program Ngyok:
+    Ki: Negyzetgyok(0)
+    Ki: Negyzetgyok(3.3)
+    Ki: Negyzetgyok(2)
+    Ki: Negyzetgyok(9)
+    Ki: Negyzetgyok(-9)
+Program vége.
+```
+## ***f14*** Robotvezérlés 
+Ebben a feladatban tanulók által írt robotvezérlő kódsorozatokat kell elemeznie. Az elemzésre azért van szükségünk, hogy a tényleges kipróbálás előtt kiszűrjük a hibákat tartalmazó munkákat.
+
