@@ -5,22 +5,22 @@ bármelyik programozási nyelv megismeréséhez használhatóak. ***Adatbekéré
 
 A további feladatok a már megismert nyelv rutin szerű gyakorlására alkalmasak. Régebbi OKJ-s és érettségi feladatok programozási feladatai.
 
-## ***f00*** Kéktúra 
+## [***f00*** Kéktúra ](./f00_kektura/)
 Az Országos Kéktúra Magyarország északi részén végighaladó folyamatos, jelzett
 turistaút. A Kéktúrának a Balaton-Felvidéken is több, rövidebb idő alatt bejárható túrája van. Egy ilyen túra adatait kell feldolgoznia ebben a feladatban.
-- ```kektura.csv``` állomány beolvasása után egyszerű kimutatások készítése
+- ```kektura.csv``` állomány beolvasása után egyszerű kimutatások készgítése
 
-## ***f01*** Expedíció 
+## [***f01*** Farkas expedíció](./f01_farkasexpedicio/)
 Valamikor a távközlés hőskorában egy ritka farkasfaj tudományos megfigyelésére
 expedíciót szerveztek a sarkkörön túlra. A magukkal vitt rádió csak napi egy adásra volt alkalmas, arra is csak 90 időegységig, időegységenként egy karaktert továbbítva.
 Az expedíció rádiósának üzeneteit több rádióamatőr is igyekezett lejegyezni. A feladatban a rádióamatőrök által lejegyzett üzeneteket kell feldolgoznia.
 A ```veetel.txt``` fájl tartalmazza a rádióamatőrök által feljegyzett üzeneteket.
 
-## ***f02*** Ötszáz 
+## [***f02*** Ötszáz](./f02_penztar/) 
 Egy apróságokat árusító boltban minden árucikk darabja 500 Ft. Ha egy vásárlás során
 valaki egy adott árucikkből több darabot is vesz, a második ára már csak 450 Ft, a harmadik pedig 400 Ft, de a negyedik és további darabok is ennyibe kerülnek, tehát az ár a harmadik ugyanazon cikk vásárlása után már nem csökken tovább.
 
-## ***f03*** Tesztverseny 
+## [***f03*** Tesztverseny](./f03_tesztverseny/)
 Egy közismereti versenyen a versenyzőknek 13+1, azaz összesen 14 tesztfeladatot tűznek ki. A versenyzőknek minden feladat esetén négy megadott lehetőség (A, B, C, D) közül kell a helyes választ megjelölniük. A versenybizottság garantálja, hogy tesztlapon minden kérdéshez pontosan egy helyes válasz tartozik. A kitöltött tesztlapokat elektronikusan rögzítik, a visszaélések elkerülése végett a versenyzőket betűkből és számokból álló kóddal azonosítják.
 
 ## ***f04*** Társalgó
@@ -211,4 +211,80 @@ Program vége.
 ## ***f14*** Robotvezérlés 
 Ebben a feladatban tanulók által írt robotvezérlő kódsorozatokat kell elemeznie. Az elemzésre azért van szükségünk, hogy a tényleges kipróbálás előtt kiszűrjük a hibákat tartalmazó munkákat.
 
+## ***f15*** PI kalkuláció
+A következő algoritmus a PI közelítő értékét határozza meg a Spigot algoritmus felhasználásával.
+Kódolja az algoritmust a választott programozási nyelven! Az elkészült program forráskódját
+mentse Spigot néven!
+A megoldás során vegye figyelembe a következőket:
+- A választott programozási nyelvtől függően eltérő jelölésű operátorokat és függvényeket
+kell alkalmaznia.
+- A ”mod” a maradékképzés, a ”div” az egészosztás operátora.
+- A ”Térj vissza” utasítás megszakítja a függvény futását és meghatározza annak
+visszatérési értékét.
+- Az egész típusú változókhoz használjon 32 bites előjeles adattípust!
+
+```plaintext
+Függvény SpigotPi(digits: Egész): Szöveg
+    Változó N, i, j, q, carry, num: Egész
+    Változó result: Szöveg
+    N := digits * 3 + 2
+    Változó x:Tömb[0..N-1] Egész
+    Változó r:Tömb[0..N-1] Egész
+    result := ””
+    Ciklus j:=0-tól N-1 -ig (+1 lépésközzel)
+        x[j] := 20
+    Ciklus vége
+    Ciklus i:=0-tól digits-1 -ig (+1 lépésközzel)
+        carry := 0
+        Ciklus j:=0-tól N-1 -ig (+1 lépésközzel)
+            x[j] : = x[j] + carry
+            num := N - j – 1
+            q := x[j] div (num * 2 + 1)
+            r[j] := x[j] mod (num * 2 + 1)
+            carry := q * num
+        Ciklus vége
+        Ha (i < digits -1) akkor
+            result := result + x[N-1] div 10
+        Elágazás vége
+        r[N – 1] := x[N-1] mod 10
+        Ciklus j:=0-tól N-1 -ig (+1 lépésközzel)
+            x[j] := r[j] * 10
+        Ciklus vége
+    Ciklus vége
+    Térj vissza result
+Függvény vége
+Program Spigot
+    Ki: SpigotPi(15)
+Program vége
+```
+
+## ***f16*** Számsorozat
+A következő feladatban egy számsorozat feldolgozásához és elemzéséhez kell programot
+készítenie.
+
+## ***f17*** Helsinki 1952 
+Az 1952-ben Helsinkiben rendezett nyári olimpián nagyon szépen szerepeltek a
+magyar színekben induló olimpikonok. Ebben a feladatban az általuk elért helyezésekkel
+kapcsolatos számításokat kell elvégeznie.
+
+## ***f18*** Egyszámjáték
+Az egyszámjáték Mérő László matematikus találmánya. A játék nagyon egyszerű.
+Mindenkinek, aki a játék egy fordulójában részt kíván venni, tippelnie kell egy számra 1 és
+99 között. A játékot az nyeri, aki a legkisebb olyan számra tippelt, amelyre csak ő tippelt
+egyedül, ha nincs ilyen szám, akkor a fordulónak nincs nyertese.
+Ebben a feladatban egy többfordulós egyszámjátékkal kapcsolatban kell feladatokat
+megoldania.
+
+## ***f19*** Footgolf
+A footgolf egy szabadtéri sport, melynek fő célja, hogy egy futball-labdát a lehető
+legkevesebb számú rúgással eljuttassunk az elrúgóhelynek kijelölt lapos területről a pálya
+végén található lyukba. A játék szabályainak alapjait a golf sportág adja, míg a technikai
+tudás a futball során sajátítható el. A magyar bajnokságban nyolc fordulóban mérik össze
+tudásukat az indulók. A versenyzők fordulónkénti pontszáma a helyezésért járó pontból és a
+versenyen indulásért kapott bónuszpontból (10 pont) tevődik össze. Ebben a feladatban a
+2016-os footgolf országos bajnokság adataival kell feladatokat megoldania.
+
+## ***f20*** Üzemanyagárak változása
+Az üzemanyagok (benzin és gázolaj) fogyasztói ára gyakran hetenként változik. Ebben a
+feladatban a 2011-2016-os időszak átlagos árainak változásaival kell feladatokat megoldania.
 
