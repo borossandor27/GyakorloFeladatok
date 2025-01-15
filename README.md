@@ -288,3 +288,87 @@ versenyen indulásért kapott bónuszpontból (10 pont) tevődik össze. Ebben a
 Az üzemanyagok (benzin és gázolaj) fogyasztói ára gyakran hetenként változik. Ebben a
 feladatban a 2011-2016-os időszak átlagos árainak változásaival kell feladatokat megoldania.
 
+## [***f21*** Hegyláncok feladat](./f21_hegylancok/)
+A feladatban egy hegymagasságokat tartalmazó adatsorral kell dolgoznia. Az adatsorban a
+hegymagasságokat 0−15 közötti véletlenszerűen generált számokkal határozzuk meg. Az
+a feladata, hogy a hegymagasságokat tartalmazó adatsort létrehozza és feldolgozza.
+
+## [***f22*** Hiányzások](./f22_hianyzasok/)
+Egy osztály második félévi hiányzásai állnak rendelkezésére a naplo.txt fájlban.
+A hiányzások naponként csoportosítva szerepelnek, minden napot a # karakter kezd, majd egyegy szóközzel elválasztva a hónap és a nap sorszáma következik. Az aznapi hiányzások
+tanulónként külön sorokban vannak, a tanuló napi hiányzásait egy hét karakterből álló
+karaktersorozat írja le. A karaktersorozat minden karaktere egy-egy órát ad meg. Értéke
+az O betű, ha a tanuló jelen volt az adott órán, az X utal az igazolt, az I az igazolatlan távollétre,
+végül N betű jelzi, ha a tanulónak akkor nem volt órája. 
+
+## [***f23*** Kerítés](./F23_kerites/)
+Egy üdülőfalu újonnan nyitott utcájában a telkeket a saroktól kiindulva egymás után
+folyamatosan, kihagyások nélkül adják el. A vásárló kiválaszthatja az oldalt, amelyen vásárolni
+akar (*ott csak a soron következő telket vásárolhatja meg*), valamint megadhatja a telek
+utcafronti szélességét. Sok telket vettek meg az utcában, a legtöbben már kerítést is építettek,
+azok majd’ mindegyikét be is festették.
+
+A **kerites.txt** fájl az utca telkeinek jelenlegi állapotát írja le. A telkek a vásárlás
+sorrendjében szerepelnek. Minden sorban három adat található. Az első szám megadja, hogy a
+telek a páros (0) vagy a páratlan (1) oldalán van az utcának; a második a telek szélességét adja
+meg méterben (*egész szám, értéke 8 és 20 között lehet*); a harmadik pedig az utcafronti kerítés
+színét leíró karakter. A szín az angol ábécé nagybetűje. Ha a kerítést már elkészítették, de nem
+festették be, akkor a „#” karakter, ha még nem készült el, akkor a „:” (kettőspont) karakter
+szerepel. Az utca hossza legfeljebb 1000 méter. Mindkét oldalon elkelt legalább 3-3 telek.
+
+## [***f26*** Kutyák](./f26_Kutyak/)
+Kutyák állatorvosi adatait tartalmazó szövegfájlokkal kell dolgozni
+
+## [***f27*** Lift](./f27_lift/)
+A Madárház Kft. toronyházak építésével foglalkozik. Jelenleg a Csúcs Rt. 100 szintes
+szerkezetkész épületén kezdték meg a belső szerelési műveleteket. Az egyes szerelőcsapatok
+naponta többször változtatják helyüket. Ha az új munkaterület egy másik emeleten van, akkor
+– a biztonsági előírások miatt – lifttel kell menniük. A házban egyetlen lift működik, amelynek igénybevételét az egyes csapatok a célszint megadásával jelezhetik. A lift az igényeket a
+jelzés sorrendjében szolgálja ki, és egyszerre csak egy csapatot szállít. A csapatok mozgását a
+9 és 14 óra közötti intervallumban követjük nyomon. Ez az intervallum a munkaidőnek csak
+egy része, tehát a csapatok már dolgoznak valamelyik szinten, de 9 órakor teljesítetlen kérés
+nincs és a lift szabad.
+
+## [***f28*** Születések száma Vas megyében](./f28_Szuletesek_Vas_megyeben/)
+A következő feladatban több, egész évet felölelő időszakban vizsgáljuk Vas megyében az élve születések számát. A forrásállományba (vas . txt) az itt született csecsemők személyi azonosítója (személyi száma) került (az azonosítók fiktívek). Az azonosítók képzésének a  szabálya 1997. január 1-jétől megváltozott, ezért a forrásállományban csak 1997-es vagy későbbi személyi azonosítók lehetnek. 
+
+## [***f29*** Királynők](./f29_Kiralynok/)
+Ebben a feladatban egy 8x8-as mátrixban mint sakktáblán a számítógép által
+véletlenszerűen elhelyezett királynőkkel fog dolgozni. A sakktábla sorait és oszlopait 0-
+tól 7-ig egész számokkal azonosítjuk.
+
+
+## [***f31*** Műkorcsolya 2017](./f31_Mukorcsolya_2017/)
+A feladat során a 2017-es műkorcsolya- és jégtánc-világbajnokság női egyéni versenyszámának eredményeit kell feldolgoznia. A verseny minden induló számára a rövidprogrammal kezdődik. A versenyzők értékelése során a zsűritől technikai és komponens pontszámokat, valamint hibapontokat kapnak. A rövidprogram összpontszámának kiszámításakor a technikai és a komponens pontszámok összegéből vonják le a hibapontokat.
+
+## [***f32*** Nobel-díjak](./f32_Nobel-dij/)
+A következő feladatban a Svéd Királyi Tudományos Akadémia által osztott Nobel-díj napjainkig feljegyzett adatait tartalmazó szöveges állományt kell feldolgoznia. 
+
+## [***f33*** Osztályzatok feladat](./f33_osztalyzatok/)
+Tervezze meg és készítse el azt a programot, amely egy osztály osztályzatait kezeli.
+
+## [***f35*** Szín-kép](./f35_Szin-kep/)
+Egy digitális kép tárolásánál minden egyes képpont színét tároljuk. A képpontok színét
+az RGB kód adja. Az RGB kód a vörös (R), zöld (G) és a kék (B) színösszetevő értékét
+határozza meg. Ezen színösszetevők értéke 0 és 255 közötti egész szám lehet.
+
+## [***f36*** Kéktúra](./F36_Kektura/)
+Az Országos Kéktúra Magyarország északi részén végighaladó folyamatos, jelzett
+turistaút. A Kéktúrának a Balaton-felvidéken is több, rövidebb idő alatt bejárható túrája van.
+Egy ilyen túra adatait kell feldolgoznia ebben a feladatban.
+
+## [***f37*** Fehérje](./F37_Feherje_feladat/)
+A fehérjék óriás molekulák, amelyeknek egy része az élő szervezetekben végbemenő folyamatokat katalizálják. Egy-egy fehérje aminosavak százaiból épül fel, melyek láncszerűen
+kapcsolódnak egymáshoz. A természetben a fehérjék fajtája több millió. Minden fehérje húszféle aminosav különböző mennyiségű és sorrendű összekapcsolódásával épül fel.
+
+## [***f38*** Kugli](./F38_Kugli/)
+A kugli játéknál 9 bábut állítanak fel egy négyzet alakú helyre, ezeket a bábukat egy golyóval
+lehet ledönteni. A játékosok egymás után dobnak. A játékszabály a következő: a játékosoknak
+legalább annyi bábut kell ledöntenie, mint amennyit az előtte dobó játékos ledöntött. Ha
+kevesebbet dönt le, akkor hibapontot kap. A játékos 2 hibapont után kiesik a játékból. A
+játékosok száma 5, és a játék 4 kör alatt ért véget...
+
+## [***f39*** Lottó](./F39_Lotto_feladat/)
+Magyarországon 1957 óta lehet ötös lottót játszani. A játék lényege a következő: a lottószelvényeken 90 szám közül 5 számot kell a fogadónak megjelölnie. Ha ezek közül 2 vagy annál
+több megegyezik a kisorsolt számokkal, akkor nyer. Az évek során egyre többen hódoltak
+ennek a szerencsejátéknak és a nyeremények is egyre nőttek.
