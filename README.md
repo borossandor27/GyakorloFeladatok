@@ -1,6 +1,6 @@
 # Gyakorló feladatok 
 
-A ```Programozas_feladatok.pdf```-ben olyan egyszerű feladatok vannak, amelyek
+A [```Programozas_feladatok.pdf```](./Programozas_feladatok.pdf)-ben olyan egyszerű feladatok vannak, amelyek
 bármelyik programozási nyelv megismeréséhez használhatóak. ***Adatbekérés, értékadások, ...***
 
 A további feladatok a már megismert nyelv rutin szerű gyakorlására alkalmasak. Régebbi OKJ-s és érettségi feladatok programozási feladatai.
@@ -23,19 +23,19 @@ valaki egy adott árucikkből több darabot is vesz, a második ára már csak 4
 ## [***f03*** Tesztverseny](./f03_tesztverseny/)
 Egy közismereti versenyen a versenyzőknek 13+1, azaz összesen 14 tesztfeladatot tűznek ki. A versenyzőknek minden feladat esetén négy megadott lehetőség (A, B, C, D) közül kell a helyes választ megjelölniük. A versenybizottság garantálja, hogy tesztlapon minden kérdéshez pontosan egy helyes válasz tartozik. A kitöltött tesztlapokat elektronikusan rögzítik, a visszaélések elkerülése végett a versenyzőket betűkből és számokból álló kóddal azonosítják.
 
-## ***f04*** Társalgó
+## [***f04*** Társalgó](./f04_tarsalgo/)
 Egy színház társalgójában még a délelőtti próbák alatt is nagy a forgalom. A színészek hosszabb-rövidebb beszélgetésekre térnek be ide, vagy éppen csak keresnek valakit. A feladatban a társalgó ajtajánál 9 és 15 óra között felvett adatokat kell feldolgoznia.
 
-## ***f05*** Levenshtein-távolság
+## [***f05*** Levenshtein-távolság](./f05_Levenshtein_tavolsag/)
 A következő algoritmus két, maximum 25 karakter hosszú karakterláncról megállapítja,
 hogy mekkora a Levenshtein-távolságuk, azaz minimálisan hány karakterenkénti művelet
 (beszúrás, törlés, csere) kell ahhoz, hogy az egyik karakterláncot a másikra átalakítsuk. Kódolja az algoritmust a választott programozási nyelven! 
 
-## ***f06*** Pontok 
+## [***f06*** Pontok](./f06_pontok/)
 Ebben a feladatban egy szöveges állományban x, y koordinátákkal megadott pontokat kell vizsgálnia. Minden pont adata külön sorba került a forrásállományban a sorszámuk
 alapján...
 
-## ***f07*** Shell rendezés
+## [***f07*** Shell rendezés](./f07_Shell-rendezes/)
 A következő algoritmus a Shell rendezés algoritmusával rendezi az N elemű (N<100)
 vektorban megadott számokat növekvő sorrendben.
 Kódolja az algoritmust a választott programozási nyelven! Az elkészült program
@@ -96,21 +96,21 @@ Program shellsort
 Program vége
 ```
 
-## ***f08*** Bástyák
+## [***f08*** Bástyák](./f08_bastyak/)
 Ebben a feladatban egy 8x8-as mátrixban mint sakktáblán a számítógép által
 véletlenszerűen elhelyezett bástyákkal és gyalogokkal fog dolgozni.
 
-## ***f09*** Reversi 
+## [***f09*** Reversi](./f09_reversi/) 
 A reversi játékot általában 8×8 mezőből álló négyzetrácsos táblán játsszák. Ebben a
 feladatban a tábla sorait és oszlopait is 0-tól 7-ig azonosítjuk az ábra szerint. A játékot legjobb olyan korongokkal játszani, amelyek két oldala különböző színű (feladatunkban kék és fehér). A két játékos felváltva rakja le korongjait. ...
 
-## ***f10*** Lézerlövészet 
+## [***f10*** Lézerlövészet](./f10_lezerloveszet/)
 Egy baráti társaságban népszerű szórakozás a lézerlövészet, ahol a játékosok elektronikus fegyverrel lőnek virtuális céltáblára. Mivel csak egy fegyverük van, így minden lövés előtt kockadobással határozzák meg a soron következő játékost. A kockadobásban mindenki részt vesz, így egymás után akár több lövést is leadhat egy-egy játékos.
 
-## ***f11*** kő-papír-olló
+## [***f11*** kő-papír-olló](./f11_koPapirOllo/)
 Írjon programot a kő-papír-olló játékkal kapcsolatos feladatok megoldására! A program olvassa be két játékos választását kódok segítségével a minta szerint, majd tárolja azokat! 
 
-## ***f12*** koktélrendezés
+## [***f12*** koktélrendezés](./f12_koktelrendezes/)
 Kódolja az alábbi algoritmust a választott programozási nyelven!
 Az algoritmus egy bájt típusú, 10 elemű vektort rendez növekvő sorrendben a koktélrendezés módszerével.
 ```plaintext
@@ -158,7 +158,7 @@ Program:
     KiirTomb(t)
 Program vége.
 ```
-## ***f13*** Négyzetgyökök keresése 13 pont
+## [***f13*** Négyzetgyökök keresése](./f13_negyzetgyokok/)
 A következő algoritmus számok négyzetgyökét határozza meg. Kódolja az algoritmust a
 választott programozási nyelven! A ”/*” és ”*/” karakterpárok között megjegyzéseket talál, ezeket helyezze el a megoldásban is! Az elkészült program forráskódját mentse ```Ngyok``` néven!
 A megoldás során vegye figyelembe a következőket:
@@ -208,10 +208,10 @@ Program Ngyok:
     Ki: Negyzetgyok(-9)
 Program vége.
 ```
-## ***f14*** Robotvezérlés 
+## [***f14*** Robotvezérlés](./f14_robotvezerles/)
 Ebben a feladatban tanulók által írt robotvezérlő kódsorozatokat kell elemeznie. Az elemzésre azért van szükségünk, hogy a tényleges kipróbálás előtt kiszűrjük a hibákat tartalmazó munkákat.
 
-## ***f15*** PI kalkuláció
+## [***f15*** PI kalkuláció](./f15_SpigotPi/)
 A következő algoritmus a PI közelítő értékét határozza meg a Spigot algoritmus felhasználásával.
 Kódolja az algoritmust a választott programozási nyelven! Az elkészült program forráskódját
 mentse Spigot néven!
@@ -258,16 +258,16 @@ Program Spigot
 Program vége
 ```
 
-## ***f16*** Számsorozat
+## [***f16*** Számsorozat](./f16_szamsorozat/)
 A következő feladatban egy számsorozat feldolgozásához és elemzéséhez kell programot
 készítenie.
 
-## ***f17*** Helsinki 1952 
+## [***f17*** Helsinki 1952](./f17_helsinki_1952/)
 Az 1952-ben Helsinkiben rendezett nyári olimpián nagyon szépen szerepeltek a
 magyar színekben induló olimpikonok. Ebben a feladatban az általuk elért helyezésekkel
 kapcsolatos számításokat kell elvégeznie.
 
-## ***f18*** Egyszámjáték
+## [***f18*** Egyszámjáték](./f18_egyszamjatek/)
 Az egyszámjáték Mérő László matematikus találmánya. A játék nagyon egyszerű.
 Mindenkinek, aki a játék egy fordulójában részt kíván venni, tippelnie kell egy számra 1 és
 99 között. A játékot az nyeri, aki a legkisebb olyan számra tippelt, amelyre csak ő tippelt
@@ -275,7 +275,7 @@ egyedül, ha nincs ilyen szám, akkor a fordulónak nincs nyertese.
 Ebben a feladatban egy többfordulós egyszámjátékkal kapcsolatban kell feladatokat
 megoldania.
 
-## ***f19*** Footgolf
+## [***f19*** Footgolf](./f19_footgolf/)
 A footgolf egy szabadtéri sport, melynek fő célja, hogy egy futball-labdát a lehető
 legkevesebb számú rúgással eljuttassunk az elrúgóhelynek kijelölt lapos területről a pálya
 végén található lyukba. A játék szabályainak alapjait a golf sportág adja, míg a technikai
@@ -284,7 +284,7 @@ tudásukat az indulók. A versenyzők fordulónkénti pontszáma a helyezésért
 versenyen indulásért kapott bónuszpontból (10 pont) tevődik össze. Ebben a feladatban a
 2016-os footgolf országos bajnokság adataival kell feladatokat megoldania.
 
-## ***f20*** Üzemanyagárak változása
+## [***f20*** Üzemanyagárak változása](./f20_uzemanyag/)
 Az üzemanyagok (benzin és gázolaj) fogyasztói ára gyakran hetenként változik. Ebben a
 feladatban a 2011-2016-os időszak átlagos árainak változásaival kell feladatokat megoldania.
 
