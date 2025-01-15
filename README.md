@@ -372,3 +372,40 @@ játékosok száma 5, és a játék 4 kör alatt ért véget...
 Magyarországon 1957 óta lehet ötös lottót játszani. A játék lényege a következő: a lottószelvényeken 90 szám közül 5 számot kell a fogadónak megjelölnie. Ha ezek közül 2 vagy annál
 több megegyezik a kisorsolt számokkal, akkor nyer. Az évek során egyre többen hódoltak
 ennek a szerencsejátéknak és a nyeremények is egyre nőttek.
+
+## [***f40*** SMS szavak](./F40_Sms_szavak_feladat/)
+Napjainkban a kommunikáció egy elterjedt formája az SMS-küldés. Az SMS-küldésre alkalmas telefonok prediktív szövegbevitellel segítik az üzenetek megírását. Ennek használatakor a szavakat úgy tudjuk beírni, hogy a telefon számbillentyűjén található betűknek megfelelő számokat kell beírnunk.
+
+## [***f41*** Személyazonosító jel](./F41_SzemSzam_feladat/)
+Az ország állampolgárainak van egyedi azonosítójuk. Ez a személyazonosító jel. Az 1997. január 1-je után születetteknél ez a következőképpen néz ki...
+
+## [***f42*** Telefonszámla](./F42_Telefonszamla/)
+Egy új szolgáltatás keretében ki lehet kérni a napi telefonbeszélgetéseink listáját. A listát egy fájlban küldik meg, amelyben a következő adatok szerepelnek: hívás kezdete, hívás vége, hívott telefonszám. A hívás kezdete és vége óra, perc, másodperc formában szerepel...
+
+## [***f43*** Triatlon](./F43_Triatlon/)
+Egy triatlon versenyen a versenyzőknek a verseny folyamán egymás után kell először
+úszniuk, kerékpározniuk majd futniuk. Az győz, aki a legrövidebb idő alatt fejezi be a versenyt. Az egyes versenyzők adatai és időeredményei a triatlon.be fájlban találhatók...
+
+## [***f44*** Vigenère tábla](./F44_Vigenere_CS/)
+Már a XVI. században komoly titkosítási módszereket találtak ki az üzenetek elrejtésére. A század egyik legjobb kriptográfusának Blaise de Vigenère-nek a módszerét olvashatja a következőkben...
+
+## [***f45*** Zenei adók](./F45_Zenei_adok_CS_Linq_NL/)
+A rádióhallgatás ma már egyre inkább zene vagy hírek hallgatására korlátozódik. Ez a feladat három, folyamatosan zenét sugárzó adóról szól, azok egyetlen napi műsorát feldolgozva. A reklám elkerülése érdekében az adókat nevük helyett egyetlen számmal azonosítottuk...
+
+## [***f46*** csudh.edu](./F46_csudh.edu/)
+A Kaliforniában található CSUDH Egyetem weboldalának elkészítéséhez kell támogatást nyújtania. Az egyetem weboldalán egy táblázatban szeretné feltüntetni a saját gondozásában lévő szerverek domainneveit és a hozzájuk tartozó IP-címeket, amihez Önnek egy segédprogramot kell elkészítenie...
+
+## [***f47*** DHCP szerver](./F47_DHCP/)
+Készítsen programot az alábbi feladatra az Ön által tanult programozási nyelven! Az
+elkészítendő programnak egy DHCP szerver működését kell szimulálnia. A DHCP
+szerver a 192.168.10.100 – 192.168.10.199-as tartományból osztja az IP-címeket. A
+feladathoz négy induló állomány tartozik...
+
+## [***f48*** Az Európai Unió tagállamai](./F48_EU_tagallamok/)
+Ebben a feladatban egy programot kell készítenie, amelyben az Európai Unió tagállamaival és a csatlakozási dátumokkal kell dolgoznia...
+
+## [***f49*** Fuvar](./F49_Fuvar/)
+A következő feladatban 2016-os chicagói taxis fuvarozások adatait tartalmazó szöveges állományt kell feldolgoznia. A megoldás során vegye figyelembe a következőket...
+
+## [***f50*** Hotellift](./F50_Hotellift/)
+A következő feladatban egy Balaton-parti hotel lifthasználatát kell elemeznie egy rövid, előszezoni időszakban. A liftet minden vendég csak a személyes, sorszámozott kártyájával tudja igénybe venni. Az utasok a kártyával történő azonosítás után tudják a liftet az induló szintre hívni és a célnak beírt szintre utazásra használni. A forrásállomány (lift . txt) soraiban időrendben egy-egy lifthasználat adatait rögzítettük. Egy sorban rendre a követketó adatok találhatók: használat időpontja, kártya sorszáma, az induló- és a célszint sorszáma. Az adatokat szóköz karakterrel választottuk el egymástól. A megoldás során vegye figyelembe a következőket...
