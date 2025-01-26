@@ -409,3 +409,47 @@ A következő feladatban 2016-os chicagói taxis fuvarozások adatait tartalmaz�
 
 ## [***f50*** Hotellift](./F50_Hotellift/)
 A következő feladatban egy Balaton-parti hotel lifthasználatát kell elemeznie egy rövid, előszezoni időszakban. A liftet minden vendég csak a személyes, sorszámozott kártyájával tudja igénybe venni. Az utasok a kártyával történő azonosítás után tudják a liftet az induló szintre hívni és a célnak beírt szintre utazásra használni. A forrásállomány (lift . txt) soraiban időrendben egy-egy lifthasználat adatait rögzítettük. Egy sorban rendre a követketó adatok találhatók: használat időpontja, kártya sorszáma, az induló- és a célszint sorszáma. Az adatokat szóköz karakterrel választottuk el egymástól. A megoldás során vegye figyelembe a következőket...
+
+## [***f51*** Kémiai elemek felfedezése](./F51_Kemiai_Elemek_Felfedezese/)
+A kémiai elemek kémiailag tovább már nem bontható, egyszeríí anyagok. Jelenleg 118 különböző kémiai elemet ismeriink, közülük a Földön 94 található meg a természetben, ezeket természetes kémiai elemeknek hívjuk. Ebben a feladatban a kémiai elemek felfedezésével kapcsolatos adatforrással kell dolgoznia 
+
+## [***f52*** Autóverseny köridők](./F52_Koridok/)
+A következőkben egy autóverseny-sorozat adatait tartalmazó szöveges állományból kell adatokat kinyernie. A szöveges állományban 9 csapat 18 versenyzőjének 6 versenypályán futott 33 körének adatai találhatóak meg.
+
+## [***f53*** A 2018-as labdarúgó-világbajnokság helyszínei](./F53_Labdarugo_VB_2018/)
+A feladatban a 2018-ban Oroszországban rendezett labdarúgóvilágbajnokság (*VB*) helyszíneinek adataivall kell dolgoznia.
+
+## [***f54*** Magyarország hegyei](./F54_Magyarorszag_hegyei/)
+A feladatban Magyarország legmagasabb hegyeinek adataival kell dolgoznia.
+
+## [***f55*** Morze](./F55_Morze_abc/)
+A  feladatban morzekódon írt szövegfájl adatainak feldolgozásával kell dolgoznia. 
+
+## [***f56*** Nyelvvizsga](./F56_Nyelvvizsga/)
+A feladat során Az OKTATÁSI HIVATAL Nyelvvizsgáztatási Akkreditációs Központ
+(*www.nyak.hu*) nyelvvizsga statisztikáival kell dolgoznia. Az adatokat két UTF-8
+kódolású állomány tartalmazza: `sikeres.csv` és `sikertelen.csv`. A fájlok egy-egy
+sora – *pontosvesszővel elválasztva* – tartalmazza, hogy egy nyelvből az utóbbi 9 évben
+(2009−2017) hányan tettek vizsgát. A `sikeres.csv` állományban a sikeres vizsgák
+száma található meg, a `sikertelen.csv` állományban a sikertelen vizsgák száma
+szerepel.
+
+## [***f57*** Webshop rendelések](./F57_Rendelesek/)
+Az elkészítendő program feladata, egy sportklub rajongói weboldalára egy hétvége alatt
+beérkezett megrendelések feldolgozása.
+A webshop által árult termékek listáját és a pillanatnyi készletet a raktar.csv állomány
+tartalmazza. A megrendelések a `rendeles.csv` állományban találhatók.
+A `raktar.csv` állomány UTF-8-as kódolással, pontosvesszővel elválasztva tartalmazza a
+készleten lévő termékeket
+
+## [***f58*** Telekocsi](./F58_Telekocsi/)
+A feladat során egy telekocsi szolgáltatást végző cég hirdetőinek és utasainak párosítását
+kell elvégeznie. A hirdetők egy adott útvonalon (*induló- és célállomás*) vállalják, hogy az
+autójukban a szabad férőhely erejéig utasokat visznek el.
+
+## [***f62*** Fantasy Card](./F62_fantasyCard/)
+A feladatban egy fantasy kártya pakli adatiat tartalmazó szöveges
+állományt kell feldolgoznia. 
+
+## [***f64*** Operátorok](./f64_Operatorok/)
+A `kifejezesek.txt` forrásállomány soraiban aritmetikai kifejezések találhatók. Ebből a tartalmazó szöveges állományból kell adatokat kinyernie és feldolgoznia.
